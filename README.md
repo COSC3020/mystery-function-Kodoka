@@ -33,13 +33,13 @@ In summary, this is a recursive function that works through an
 array of values to determine/return the greatest value.
 
 Given the array
-[5, 2, 3, 7] a quick summary of what would happen is:
-a1.length > 1, foo1 = mystery([2, 3, 7])
-a2.length > 1, foo2 = mystery([3, 7])
-a3.length > 1, foo3 = mystery([7])
-a4.length == 1, return 7, foo3 = 7
-7 > 3, return 7, foo2 = 7
-7 > 2, return 7, foo1 = 7
+[5, 2, 3, 7] a quick summary of what would happen is:  
+a1.length > 1, foo1 = mystery([2, 3, 7])  
+a2.length > 1, foo2 = mystery([3, 7])  
+a3.length > 1, foo3 = mystery([7])  
+a4.length == 1, return 7, foo3 = 7  
+7 > 3, return 7, foo2 = 7  
+7 > 2, return 7, foo1 = 7  
 7 > 5, return 7
 
 So 7 is the greatest value in the array.
